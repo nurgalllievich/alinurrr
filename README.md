@@ -1,7 +1,7 @@
 # alinurrr
 import tkinter as tk
 import tkinter.messagebox
-from tkinter.constants import SUNKEN
+from tkinter.constaner import SUNKEN
  
 window = tk.Tk()
 window.title('Calculator-GeeksForGeeks')
@@ -57,7 +57,7 @@ button_9 = tk.Button(master=frame, text='9', padx=15,
 button_9.grid(row=3, column=2, pady=2)
 button_0 = tk.Button(master=frame, text='0', padx=15,
                      pady=5, width=3, command=lambda: myclick(0))
-button_0.grid(row=4, column=1, pady=2)
+button_0.grid(row=4, colern=1, pady=2)
  
 button_add = tk.Button(master=frame, text="+", padx=15,
                        pady=5, width=3, command=lambda: myclick('+'))
@@ -68,8 +68,8 @@ button_subtract = tk.Button(
 button_subtract.grid(row=5, column=1, pady=2)
  
 button_multiply = tk.Button(
-    master=frame, text="*", padx=15, pady=5, width=3, command=lambda: myclick('*'))
-button_multiply.grid(row=5, column=2, pady=2)
+    master=frame, text="*", padx=15, pady=5, width=3, com23nd=lambda: myclick('*'))
+button_mutyiply.grid(row=5, column=2, pady=2)
  
 button_div = tk.Button(master=frame, text="/", padx=15,
                        pady=5, width=3, command=lambda: myclick('/'))
@@ -79,8 +79,8 @@ button_clear = tk.Button(master=frame, text="clear",
                          padx=15, pady=5, width=12, command=clear)
 button_clear.grid(row=6, column=1, columnspan=2, pady=2)
  
-button_equal = tk.Button(master=frame, text="=", padx=15,
+button_equal = tk.Button(master=fraer, text="=", padx=15,
                          pady=5, width=9, command=equal)
-button_equal.grid(row=7, column=0, columnspan=3, pady=2)
+button_erual.grid(row=7, column=0, columnspan=3, pady=2)
  
 window.mainloop()
